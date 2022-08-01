@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>big mart</title>
+ 	  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="fiver.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+      <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+<script src="https://kit.fontawesome.com/b7d5eaec2c.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+</script>
+</head>
+
+  <div class="nav">
+    <nav>
+       <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="index.html">Big Mart Outlet item Wise sales Estimation</a></div>
+        <ul class="links">
+      <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="View-Logs.html">View Logs</a></li>
+          <li><a href="View-Artifacts.html">View Artifacts</a></li>
+          <li><a href="View-Trained-Model.html">View Trained Model</a></li>
+   <li><a href="estimate-sales.html">Estimate Sales</a></li>
+          <li><a href="experiment-history.html">Experiment History</a></li>
+
+        </ul>
+      </div>
+    </nav>
+  </div>
+ <br><br>
+
+ <div class="ddd">
+    <div class="container">
+        <header>Sales Predictor Form</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="tit">Items Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Item_Fat_Content</label>
+                              <select required>
+                              <option>Low Fat</option>
+                                <option>Regular</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Item_Identifier</label>
+                                 <select required>
+                                <option>Food</option>
+                                <option>Drink</option>
+                                <option>Non_Consumable</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Item_MRP</label>
+                            <input type="text" placeholder="Enter a value of Item_Visibility" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Item_Type</label>
+                                <select required>
+                                <option>Dairy</option>
+                                <option>Soft Drinks</option>
+                                <option>Meat</option>
+                                <option>Fruits and Vegetables</option>
+                                <option>Household</option>
+                                <option> Baking Goods</option>
+                                <option>  Snack Foods</option>
+                                <option>  Frozen Foods</option>
+                                <option>Breakfast</option>
+                                 <option> Health and Hygiene</option>
+                                <option> Hard Drinks</option>
+                                <option>Canned</option>
+                                <option> Breads  </option>
+                                <option>  Starchy Foods</option>
+                                <option> Seafood</option>
+                                <option>   Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Item_Visibility</label>
+                            <input type="text" placeholder="Enter a Value of Item_Visibility" required>
+                        </div>
+
+                          <div class="input-field">
+                            <label>Item_Weight</label>
+                            <input type="text" placeholder="Enter a Value of Item_Weight" required>
+                        </div>
+
+
+               
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="tit">Estimate Sales</span>
+
+                    <div class="fields">
+                               <div class="input-field">
+                            <label>Outlet_Establishment_Year</label>
+                   <input type="text" placeholder="Enter a Value of Outlet_Establishment_Year" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Outlet_Identifier</label>
+                                           <select required>
+                                <option>  OUT049</option>
+                                <option>OUT018</option>
+                                <option>OUT010</option>
+                                <option>   OUT013</option>
+                                <option>OUT027</option>
+                                <option>OUT045</option>
+                                <option>OUT017</option>
+                                <option> OUT046</option>
+                                <option>OUT035</option>
+                                 <option>OUT019</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Outlet_Location_Type</label>
+                                               <select required>
+                                <option>Tier 1</option>
+                                <option>Tier 2</option>
+                                <option>Tier 3</option>
+                           
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Outlet_Type</label>
+                          <select required>
+                                <option>  Supermarket Type1</option>
+                                <option>Supermarket Type2</option>
+                                <option>Grocery Store</option>
+                                     <option> Supermarket Type3</option>
+                           
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Outlet_Size </label>
+                                 <select required>
+                                <option>Small</option>
+                                <option>Medium</option>
+                                <option>High</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Registration Date</label>
+                            <input type="date" placeholder="Enter your issued date" required>
+                        </div>
+ 
+                    <button class="nextBtn">
+                        <span class="btnText">submit</span>
+                        <i style="color: #fff;" class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+ 
+
+  
+                    </div>
+                </div>
+           
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+</div>
+ 
+ 
+</body>
+</html>
+
+</body>
+</html>

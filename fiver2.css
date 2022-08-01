@@ -1,0 +1,177 @@
+.dado{
+	font-size: 8em;
+	color: #28acea;
+ }
+ .file{
+ 	display: block;
+ 	margin: 20px 50px;
+ }
+ .downl{
+ 	display: block;
+ 	color: #000;
+ 	margin: 10px 50px;
+ 	width: 100px;
+ }
+ .flexbox{
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+justify-content: center;
+  }
+ .a{
+ 	display: inline-block;
+ }
+  .flexbox1{
+ 	display: flex;
+ 	flex-direction: row;
+ 	flex-wrap: wrap;
+ 	justify-content: flex-start;
+  }
+
+ @media (max-width: 1000px){
+ 	.flexbox{
+ 		flex-direction: row;
+ 		justify-content: center;
+ 		align-items: center;
+ 	}
+ 	.icon{
+  transform: translate(-50%, -50%);
+     transition: 0.3s ease-in-out all;
+display: none;
+}
+ .a:hover .icon{
+	opacity: 0;
+}
+ }
+
+.icon{
+  transform: translate(-50%, -50%);
+     transition: 0.3s ease-in-out all;
+     opacity: 0;
+
+}
+.ddw{
+	font-size: 2.5em;
+	color: #fff;
+	background: #ff6600;
+	border-radius: 2.5em;
+}
+.a:hover .icon{
+	opacity: 1;
+}
+.icon1{
+		position: absolute;
+ top: 162px;
+ left: 170px;
+}
+.icon2{
+		position: absolute;
+ top: 162px;
+  left: 370px;
+}
+.icon3{
+		position: absolute;
+ top: 162px;
+  left: 570px;
+}
+.icon4{
+		position: absolute;
+ top: 162px;
+  left: 770px;
+}
+
+.icon5{
+		position: absolute;
+ top: 162px;
+  left: 970px;
+}
+.icon6{
+		position: absolute;
+ top: 162px;
+  left: 1170px;
+}
+.icon7{
+		position: absolute;
+ top: 400px;
+  left: 170px;
+}
+.icon8{
+		position: absolute;
+ top: 400px;
+  left: 370px;
+}
+
+.icon9{
+		position: absolute;
+ top: 400px;
+  left:570px;
+}
+.icon10{
+		position: absolute;
+ top: 400px;
+  left: 770px;
+}
+.icon11{
+		position: absolute;
+ top: 400px;
+  left: 970px;
+}
+.icon12{
+		position: absolute;
+ top: 400px;
+  left: 1170px;
+}
+.icon13{
+		position: absolute;
+ top: 650px;
+  left: 370px;
+}
+.icon14{
+		position: absolute;
+ top: 650px;
+  left: 570px;
+}
+.icon15{
+		position: absolute;
+ top: 650px;
+  left: 770px;
+}
+.icon16{
+		position: absolute;
+ top: 650px;
+  left: 970px;
+}
+.icon100{
+		position: absolute;
+ top: 169px;
+  left: 100px;
+}
+.icon200{
+		position: absolute;
+ top: 169px;
+  left: 300px;
+}
+.far1{
+ 	display: block;
+ 	color: #000;
+ 	margin: 10px 43px;
+ 
+}
+
+.far11{
+ 	display: block;
+ 	color: #000;
+ 	margin: 10px 11px;
+ 	
+ 
+}
+
+
+.farr{
+ 	display: block;
+ 	color: #000;
+ 	margin: 10px 63px;
+}
+
+
+
